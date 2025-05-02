@@ -1,2 +1,2 @@
 # mini-calculator
-Mini-Calculator.
+Mini-Calculator is a simple terminal utility for simple guys.
