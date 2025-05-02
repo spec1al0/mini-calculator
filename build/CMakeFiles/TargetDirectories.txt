@@ -1,0 +1,3 @@
+/home/spll/.src/C/mini-calculator/build/CMakeFiles/miniCalc.dir
+/home/spll/.src/C/mini-calculator/build/CMakeFiles/edit_cache.dir
+/home/spll/.src/C/mini-calculator/build/CMakeFiles/rebuild_cache.dir
