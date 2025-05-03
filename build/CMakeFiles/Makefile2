@@ -85,12 +85,12 @@ clean: CMakeFiles/miniCalc.dir/clean
 CMakeFiles/miniCalc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spll/.src/C/mini-calculator/build/CMakeFiles --progress-num=1,2 "Built target miniCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spll/.src/C/mini-calculator/build/CMakeFiles --progress-num=1,2,3,4 "Built target miniCalc"
 .PHONY : CMakeFiles/miniCalc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/miniCalc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spll/.src/C/mini-calculator/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spll/.src/C/mini-calculator/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/miniCalc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spll/.src/C/mini-calculator/build/CMakeFiles 0
 .PHONY : CMakeFiles/miniCalc.dir/rule
@@ -102,7 +102,7 @@ miniCalc: CMakeFiles/miniCalc.dir/rule
 # codegen rule for target.
 CMakeFiles/miniCalc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spll/.src/C/mini-calculator/build/CMakeFiles --progress-num=1,2 "Finished codegen for target miniCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spll/.src/C/mini-calculator/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target miniCalc"
 .PHONY : CMakeFiles/miniCalc.dir/codegen
 
 # clean rule for target.

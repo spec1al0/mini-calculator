@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/spll/.src/C/mini-calculator/src/main.c" "CMakeFiles/miniCalc.dir/src/main.c.o" "gcc" "CMakeFiles/miniCalc.dir/src/main.c.o.d"
+  "/home/spll/.src/C/mini-calculator/src/print_numbers.c" "CMakeFiles/miniCalc.dir/src/print_numbers.c.o" "gcc" "CMakeFiles/miniCalc.dir/src/print_numbers.c.o.d"
+  "/home/spll/.src/C/mini-calculator/src/set_numbers.c" "CMakeFiles/miniCalc.dir/src/set_numbers.c.o" "gcc" "CMakeFiles/miniCalc.dir/src/set_numbers.c.o.d"
   "" "miniCalc" "gcc" "CMakeFiles/miniCalc.dir/link.d"
   )
 

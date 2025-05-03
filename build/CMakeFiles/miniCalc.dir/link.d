@@ -3,6 +3,8 @@ miniCalc: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/miniCalc.dir/src/main.c.o \
+  CMakeFiles/miniCalc.dir/src/set_numbers.c.o \
+  CMakeFiles/miniCalc.dir/src/print_numbers.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libgcc_s.so \
@@ -32,6 +34,10 @@ miniCalc: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
 
 CMakeFiles/miniCalc.dir/src/main.c.o:
+
+CMakeFiles/miniCalc.dir/src/set_numbers.c.o:
+
+CMakeFiles/miniCalc.dir/src/print_numbers.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/libgcc.a:
 

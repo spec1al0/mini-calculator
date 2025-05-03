@@ -153,6 +153,54 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/print_numbers.o: src/print_numbers.c.o
+.PHONY : src/print_numbers.o
+
+# target to build an object file
+src/print_numbers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/print_numbers.c.o
+.PHONY : src/print_numbers.c.o
+
+src/print_numbers.i: src/print_numbers.c.i
+.PHONY : src/print_numbers.i
+
+# target to preprocess a source file
+src/print_numbers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/print_numbers.c.i
+.PHONY : src/print_numbers.c.i
+
+src/print_numbers.s: src/print_numbers.c.s
+.PHONY : src/print_numbers.s
+
+# target to generate assembly for a file
+src/print_numbers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/print_numbers.c.s
+.PHONY : src/print_numbers.c.s
+
+src/set_numbers.o: src/set_numbers.c.o
+.PHONY : src/set_numbers.o
+
+# target to build an object file
+src/set_numbers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/set_numbers.c.o
+.PHONY : src/set_numbers.c.o
+
+src/set_numbers.i: src/set_numbers.c.i
+.PHONY : src/set_numbers.i
+
+# target to preprocess a source file
+src/set_numbers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/set_numbers.c.i
+.PHONY : src/set_numbers.c.i
+
+src/set_numbers.s: src/set_numbers.c.s
+.PHONY : src/set_numbers.s
+
+# target to generate assembly for a file
+src/set_numbers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniCalc.dir/build.make CMakeFiles/miniCalc.dir/src/set_numbers.c.s
+.PHONY : src/set_numbers.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/print_numbers.o"
+	@echo "... src/print_numbers.i"
+	@echo "... src/print_numbers.s"
+	@echo "... src/set_numbers.o"
+	@echo "... src/set_numbers.i"
+	@echo "... src/set_numbers.s"
 .PHONY : help
 
 
